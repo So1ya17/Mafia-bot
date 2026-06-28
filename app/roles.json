@@ -1,0 +1,21 @@
+[
+  {"name":"Vanilla Town","icon":"👤","display_ru":"Мирный","team":"town","weight":5,"min_players":4,"max_instances":999,"mandatory":false,"description":"Обычный мирный житель без способностей"},
+  {"name":"Detective","icon":"🕵️","display_ru":"Комиссар","team":"town","weight":3,"min_players":6,"max_instances":2,"mandatory":false,"description":"Проверяет роль игрока ночью"},
+  {"name":"Doctor","icon":"👨‍⚕️","display_ru":"Доктор","team":"town","weight":3,"min_players":4,"max_instances":2,"mandatory":false,"description":"Лечит одного игрока ночью"},
+  {"name":"Bodyguard","icon":"💂","display_ru":"Телохранитель","team":"town","weight":2,"min_players":7,"max_instances":2,"mandatory":false,"description":"Может защитить игрока ночью (жертвует собой)"},
+  {"name":"Vigilante","icon":"🦸","display_ru":"Охотник","team":"town","weight":1,"min_players":8,"max_instances":1,"mandatory":false,"description":"Может ночью убить другого игрока (риск)"},
+  {"name":"Tracker","icon":"👣","display_ru":"Слежка","team":"town","weight":1,"min_players":8,"max_instances":1,"mandatory":false,"description":"Отслеживает движения игрока ночью"},
+  {"name":"Roleblocker","icon":"🙅","display_ru":"Блокировщик","team":"town","weight":1,"min_players":8,"max_instances":1,"mandatory":false,"description":"Блокирует действие игрока ночью"},
+  {"name":"Mason","icon":"👷","display_ru":"Масон","team":"town","weight":1,"min_players":6,"max_instances":2,"mandatory":false,"description":"Знает других масонов (помощь городу)"},
+
+  {"name":"Mafia","icon":"😈","display_ru":"Мафия","team":"mafia","weight":5,"min_players":4,"max_instances":999,"mandatory":false,"description":"Обычная мафия, член мафиозной фракции"},
+  {"name":"Godfather","icon":"🤵","display_ru":"Дон","team":"mafia","weight":2,"min_players":6,"max_instances":1,"mandatory":false,"description":"Лидер мафии, может выглядеть как мирный при проверке"},
+  {"name":"Consigliere","icon":"🧐","display_ru":"Советник","team":"mafia","weight":1,"min_players":8,"max_instances":1,"mandatory":false,"description":"Информатор мафии с особой ролью"},
+  {"name":"Framer","icon":"🎭","display_ru":"Подставщик","team":"mafia","weight":1,"min_players":8,"max_instances":1,"mandatory":false,"description":"Фальсифицирует результаты проверок"},
+  {"name":"Blackmailer","icon":"🗿","display_ru":"Шантажист","team":"mafia","weight":1,"min_players":9,"max_instances":1,"mandatory":false,"description":"Может заставить игрока молчать днем/ночью"},
+
+  {"name":"SerialKiller","icon":"🔪","display_ru":"Серийный убийца","team":"neutral","weight":1,"min_players":10,"max_instances":1,"mandatory":false,"description":"Нейтральный киллер, цель — выжить и убить всех"},
+  {"name":"Jester","icon":"🤡","display_ru":"Шут","team":"neutral","weight":1,"min_players":6,"max_instances":1,"mandatory":false,"description":"Хочет быть повешенным — цель иного типа"},
+  {"name":"Survivor","icon":"🏃","display_ru":"Выживший","team":"neutral","weight":1,"min_players":6,"max_instances":2,"mandatory":false,"description":"Просто выживает, цель — остаться живым"},
+  {"name":"GrayCardinal","icon":"🃏","display_ru":"Серый кардинал","team":"neutral","weight":1,"min_players":8,"max_instances":1,"mandatory":false,"description":"Нейтрал, цель — дожить до конца с нераскрытой ролью"}
+]
